@@ -1,0 +1,128 @@
+body {
+    margin: 0 auto;
+    background: url('images/table.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Lobster';
+    color: #f1f1f1;
+    font-size: large;
+    font-weight: bold;
+}
+
+h1,
+h3 {
+    color: goldenrod;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h3 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 36px;
+}
+
+.nav {
+    background: #016f32;
+    height: 80px;
+}
+
+@media (max-width:400px) {
+    .list>a {
+        display: none;
+    }
+}
+
+.logo {
+    width: 150px;
+    height: 75px;
+    padding: 10px;
+}
+
+.logo:hover {
+    transform: scale(1.105);
+}
+
+#text {
+    border: none;
+    width: 200px;
+    border-radius: 20px;
+    padding: 7px 12px;
+}
+
+#text:focus {
+    border: none;
+    border: 3px solid #f1f1f1;
+}
+
+button {
+    margin-right: 10px;
+    ;
+    border: none;
+    padding: .5em 1.2em;
+    background: goldenrod;
+    color: #016f32;
+    width: 200px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: color 250ms linear, background-color 250ms linear;
+}
+
+button:hover {
+    text-decoration: underline;
+    color: goldenrod;
+    background: #016f32;
+}
+
+@media (max-width: 768px) {
+    button {
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    font-size: medium;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #f1f1f1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: opacity 230ms linear;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: .7;
+}
+
+.cards__el {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+#player__data {
+    font-family: sans-serif;
+    font-size: 18px;
+}
